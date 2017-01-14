@@ -29,6 +29,66 @@
         padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
+.g {
+  		padding: 0.25em;
+			overflow: hidden;
+		}
+		.g li {
+			float: left;
+			width: 50%;
+			padding: 0.55em;
+		}
+		.g img {
+			display: block;
+		}
+		.g li:nth-child(odd) {
+			clear: left;
+		}
+	
+		@media screen and (min-width: 40em) {
+			.g li {
+		    	width: 33.3333333333333333%; 
+		  	}
+		  	.g li:nth-child(3n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(odd) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 55em) {
+			.g li {
+		    	width:25%; 
+		  	}
+		  	.g li:nth-child(4n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(3n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 72em) {
+			.g li {
+		    	width: 20%; 
+		  	}
+		  	.g li:nth-child(5n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(4n+1) {
+				clear: none;
+			}
+		}
+		@media screen and (min-width: 90em) {
+			.g li {
+		    	width: 20%; 
+		  	}
+		  	.g li:nth-child(6n+1) {
+		  		clear: left;
+		  	}
+		  	.g li:nth-child(5n+1) {
+				clear: none;
+			}
+		}
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -80,13 +140,37 @@
     <!-- Page Content -->
     <div class="container">
 
+	
+	<!--Pattern HTML-->
+  <div class="col-lg-12 text-center">  <p><h3>2D image!</h3></p>
+  <div id="pattern" class="pattern">
+  	<ul style="list-style: none;" class="g">
+			<li><a href="http://kendallhelland.com/photos/tree.jpg"><img src="photos/tree.jpg" alt="Tree" style="width:200px;height:200px;"/></a></li>
+			<li><a href="http://kendallhelland.com/photos/bandj.jpg"><img src="photos/bandj.jpg" alt="Ben and Jerry's" style="width:200px;height:200px;"/></a></li>
+			<li><a href="http://kendallhelland.com/photos/paracetamol.png"><img src="photos/paracetamol.png" alt="Tree" style="width:200px;height:200px;"/></a></li>
+			<li><a href="http://kendallhelland.com/photos/alien-party.jpg"><img src="photos/alien-party.jpg" alt="Alien Party" style="width:200px;height:200px;"/></a></li>
+			<li><a href="http://kendallhelland.com/photos/blockhead.jpg"><img src="photos/blockhead.jpg" alt="Mr Blockhead 3D Version" style="width:200px;height:200px;"/></a></li>
+	</ul>
+	</div>
+	 </div>
+	<!--End Pattern HTML-->
+	
         <div class="row">
             <div class="col-lg-12 text-center">
+			
+			<p><h3>Cinematic Area</h3></p>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Bp5ksRDCZQ8" frameborder="0" allowfullscreen></iframe>
+			<p>An Ident for Kendall branded cinema.</p>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/4AzcBuNx1wU" frameborder="0" allowfullscreen></iframe>
+			<p><a href="http://double-u-a.net/vtpp/" target="_blank">VTPP</a>: Sketch comedy troupe<br>where I provided video editing and ACTING!!</p>
+			
                <p><h3>TRYNOW!</h3></p>
-				<img class="maximage" width=50% src="unreal_web.jpg"  class="displayed"/>
-				<p>An interactive gallery made with the <a href="https://www.unrealengine.com/what-is-unreal-engine-4">Unreal</a> gaming engine.<br>Download <a href="https://drive.google.com/a/kendallhelland.com/file/d/0ByGWE76RwX50c1dVcWpOZEpOZzg/view?usp=sharing">HERE</a>. Currently only works on windows. (sorry)</p>
-				<img class="maximage" width=50% src="paracetamol.png"  class="displayed"/>
-				<p>have some meds<br>we all get headaches sometimes</p>
+				<img class="maximage" width=50%% src="unreal_web.jpg"  class="displayed"/>
+				<p>An interactive gallery made with the <a href="https://www.unrealengine.com/what-is-unreal-engine-4">Unreal</a> gaming engine.
+				<br>Download <a href="https://drive.google.com/a/kendallhelland.com/file/d/0ByGWE76RwX50c1dVcWpOZEpOZzg/view?usp=sharing">HERE</a>. Currently only works on windows. (sorry)</p>
+				
 			</div>
         </div>
         <!-- /.row -->
